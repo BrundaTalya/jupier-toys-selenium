@@ -1,0 +1,11 @@
+com\bts\app\helper\WaitHelper.class
+com\bts\app\runners\TestRunner.class
+com\bts\app\pages\CartPage.class
+com\bts\app\pages\HomePage.class
+com\bts\app\pages\ShopPage.class
+com\bts\app\helper\ConfigReader.class
+com\bts\app\utils\Hooks.class
+com\bts\app\pages\ContactPage.class
+com\bts\app\helper\DriverHelper.class
+com\bts\app\stepdefinitions\CartPageStepdefinition.class
+com\bts\app\stepdefinitions\ContactPageStepdefinition.class

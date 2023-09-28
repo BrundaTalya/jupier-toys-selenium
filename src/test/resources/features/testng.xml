@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jupiter Toys Test Suite">
+    <test name="App UI Tests">
+        <classes>
+            <class name= "com.bts.app.runners.TestRunner"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

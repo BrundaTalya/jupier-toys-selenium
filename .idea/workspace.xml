@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30b5ff1e-15b4-4aec-a7d1-63d2fef6b3ed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VrtTRurxqqlF1R7A7C71jTpl6d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/bts/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pages" />
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PLSJava\jupiter-toys-selenium\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bts.app.stepdefinitions" />
+      <recent name="com.bts.app.helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PLSJava\jupiter-toys-selenium\src\test\resources\Config" />
+      <recent name="D:\PLSJava\jupiter-toys-selenium\src\test\resources\features" />
+      <recent name="D:\PLSJava\jupiter-toys-selenium\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/PLSJava/jupiter-toys-selenium/src/test/resources/features/testng.xml">
+    <configuration name="D:/PLSJava/jupiter-toys-selenium/src/test/resources/features/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jupiter-toys-selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/features/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/PLSJava/jupiter-toys-selenium/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jupiter-toys-selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jupiter-toys-selenium" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestRunner" />
+      <item itemvalue="TestNG.D:/PLSJava/jupiter-toys-selenium/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.D:/PLSJava/jupiter-toys-selenium/src/test/resources/features/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/PLSJava/jupiter-toys-selenium/src/test/resources/features/testng.xml" />
+        <item itemvalue="TestNG.D:/PLSJava/jupiter-toys-selenium/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b5ff1e-15b4-4aec-a7d1-63d2fef6b3ed" name="Default Changelist" comment="" />
+      <created>1695606033948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695606033948</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1695694259117">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695694259117" />
+    <state x="2334" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695693005935" />
+    <state x="371" y="113" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1695700138198">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="371" y="113" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695700138198" />
+    <state x="445" y="281" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1695700423623">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="445" y="281" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695700423623" />
+    <state x="2587" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695611132264" />
+    <state x="438" y="196" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1695710729454">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="438" y="196" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695710729454" />
+    <state x="438" y="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1695700427375">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="438" y="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695700427375" />
+    <state x="371" y="83" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1695710822740">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="371" y="83" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695710822740" />
+    <state x="371" y="83" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1695871086162">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="371" y="83" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695871086162" />
+    <state x="370" y="206" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1695696648233">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="370" y="206" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695696648233" />
+    <state x="493" y="155" key="FileChooserDialogImpl" timestamp="1695777708551">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="493" y="155" key="FileChooserDialogImpl/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695777708551" />
+    <state x="2660" y="197" key="FileChooserDialogImpl/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695692925643" />
+    <state width="1237" height="144" key="GridCell.Tab.0.bottom" timestamp="1695882742007">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="144" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695882742007" />
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695733788185" />
+    <state width="1237" height="144" key="GridCell.Tab.0.center" timestamp="1695882742007">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="144" key="GridCell.Tab.0.center/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695882742007" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695733788185" />
+    <state width="1237" height="144" key="GridCell.Tab.0.left" timestamp="1695882742007">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="144" key="GridCell.Tab.0.left/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695882742007" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695733788185" />
+    <state width="1237" height="144" key="GridCell.Tab.0.right" timestamp="1695882742007">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="144" key="GridCell.Tab.0.right/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695882742007" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695733788185" />
+    <state width="1237" height="57" key="GridCell.Tab.1.bottom" timestamp="1695866114358">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.1.bottom/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695866114358" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695721341427" />
+    <state width="1237" height="57" key="GridCell.Tab.1.center" timestamp="1695866114358">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.1.center/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695866114358" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695721341427" />
+    <state width="1237" height="57" key="GridCell.Tab.1.left" timestamp="1695866114358">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.1.left/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695866114358" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695721341427" />
+    <state width="1237" height="57" key="GridCell.Tab.1.right" timestamp="1695866114358">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.1.right/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695866114358" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695721341427" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1695766284217">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695766284217" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1695787448914">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695787448914" />
+    <state x="2360" y="30" key="SettingsEditor/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695693019021" />
+    <state x="451" y="115" key="chooseDestDirectoryDialog" timestamp="1695710724069">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="451" y="115" key="chooseDestDirectoryDialog/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695710724069" />
+    <state x="91" y="32" key="new project wizard" timestamp="1695772980229">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="91" y="32" key="new project wizard/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695772980229" />
+    <state x="411" y="175" width="672" height="441" key="run.anything.popup" timestamp="1695880313088">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="411" y="175" width="672" height="441" key="run.anything.popup/0.0.1280.672/1920.-60.1920.1032@0.0.1280.672" timestamp="1695880313088" />
+    <state x="2536" y="208" width="672" height="677" key="run.anything.popup/0.0.1280.672/1920.-60.1920.1032@1920.-60.1920.1032" timestamp="1695620502107" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jupiter_toys_selenium$D__PLSJava_jupiter_toys_selenium_src_test_resources_testng_xml.ic" NAME="$PROJECT_DIR$/src/test/resources/testng.xml Coverage Results" MODIFIED="1695767662322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
