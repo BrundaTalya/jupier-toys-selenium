@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 
 public class DriverHelper {
@@ -20,17 +21,21 @@ public class DriverHelper {
 
         if (driver == null) {
             switch (browser.toLowerCase()) {
-                case "chrome":
+                case "Chrome":
                     WebDriverManager.chromedriver().setup();
                     ldriver.set(new ChromeDriver());
                     break;
-                case "firefox":
+                case "Firefox":
                     WebDriverManager.firefoxdriver().setup();
                     ldriver.set(new FirefoxDriver());
                     break;
-                case "edge":
+                case "Edge":
                     WebDriverManager.edgedriver().setup();
                     ldriver.set(new EdgeDriver());
+                    break;
+                case "Safari":
+                    WebDriverManager.safaridriver().setup();
+                    ldriver.set(new SafariDriver());
                     break;
                 default:
                     throw new RuntimeException("Unsupported browser: " + browser);
