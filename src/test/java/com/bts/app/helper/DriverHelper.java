@@ -21,19 +21,19 @@ public class DriverHelper {
 
         if (driver == null) {
             switch (browser.toLowerCase()) {
-                case "Chrome":
+                case "chrome":
                     WebDriverManager.chromedriver().setup();
                     ldriver.set(new ChromeDriver());
                     break;
-                case "Firefox":
+                case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     ldriver.set(new FirefoxDriver());
                     break;
-                case "Edge":
+                case "edge":
                     WebDriverManager.edgedriver().setup();
                     ldriver.set(new EdgeDriver());
                     break;
-                case "Safari":
+                case "safari":
                     WebDriverManager.safaridriver().setup();
                     ldriver.set(new SafariDriver());
                     break;

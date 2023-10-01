@@ -19,7 +19,7 @@ Feature:Contact Page Validation and Submission
     And click on Submit button
     Then successful submission message should be displayed
     Examples:
-      | Forename | Email               | Message         |
+      | Forename | Email               | Message          |
       | Riya     | riya@example.com    | Test Message    |
       | abc      | abc@example.com     | Test Message123 |
       | test     | test@example.com    | Test Message1   |
