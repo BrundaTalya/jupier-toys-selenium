@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T15:35:26 AEDT" name="Jupiter Toys Test Suite" finished-at="2023-10-03T15:35:34 AEDT" duration-ms="7362">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-03T15:35:26 AEDT" name="App UI Tests" finished-at="2023-10-03T15:35:34 AEDT" duration-ms="7362">
+      <class name="com.bts.app.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:26 AEDT" name="setUpClass" finished-at="2023-10-03T15:35:27 AEDT" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6056232d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:27 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:27 AEDT" duration-ms="209" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculate Cart Subtotal and Total price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Shopping Cart Calculation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:27 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:27 AEDT" duration-ms="32" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form with Errors"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:27 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:27 AEDT" duration-ms="25" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:27 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:27 AEDT" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:27 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:28 AEDT" duration-ms="50" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:28 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:28 AEDT" duration-ms="29" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:28 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-03T15:35:28 AEDT" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the Contact Form Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact Page Validation and Submission]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unsupported browser: ${Browser}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unsupported browser: ${Browser}
+at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bts.app.runners.TestRunner@1139b2f3]" started-at="2023-10-03T15:35:28 AEDT" name="tearDownClass" finished-at="2023-10-03T15:35:34 AEDT" duration-ms="6177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.bts.app.runners.TestRunner -->
+    </test> <!-- App UI Tests -->
+  </suite> <!-- Jupiter Toys Test Suite -->
+</testng-results>

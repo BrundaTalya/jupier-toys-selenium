@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 7.996 s <<< FAILURE! - in TestSuite
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.219 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
+runScenario(com.bts.app.runners.TestRunner)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.RuntimeException: Unsupported browser: ${Browser}
+
