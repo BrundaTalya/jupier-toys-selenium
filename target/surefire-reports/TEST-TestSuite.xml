@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.996" tests="7" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\plugins\maven\lib\maven3/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\jbr\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.5 -Dbrowser=chrome test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bheem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-b520.66"/>
+    <property name="user.name" value="bheem"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\bheem\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="D:\PLSJava\jupiter-toys-selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\PLSJava\jupiter-toys-selenium"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.5" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Android;C:\Windows\System32;D:\Drivers\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\bheem\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\bheem\AppData\Local\Programs\Python\Python311\;C:\Users\bheem\AppData\Local\Microsoft\WindowsApps;C:\Users\bheem\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\bin;;C:\Users\bheem\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\bheem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bheem\AppData\Roaming\npm;;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.6+8-b520.66"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.219">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario: Calculate Cart Subtotal and Total price                          # src/test/Resources/features/cart_page.feature:3
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on the home page                                           # com.bts.app.stepdefinitions.CartPageStepdefinition.user_is_on_the_home_page()
+  Then navigate to shop page                                               # com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_shop_page()
+  When user adds the following products to the cart                        # com.bts.app.stepdefinitions.CartPageStepdefinition.user_adds_the_following_products_to_the_cart(io.cucumber.datatable.DataTable)
+    | Product        | Quantity |
+    | Stuffed Frog   | 2        |
+    | Fluffy Bunny   | 5        |
+    | Valentine Bear | 3        |
+  Then navigate to cart page                                               # com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_cart_page()
+  Then subtotals for all the products added should be calculated correctly # com.bts.app.stepdefinitions.CartPageStepdefinition.subtotals_for_all_the_products_added_should_be_calculated_correctly()
+  And total should be equal to the sum of subtotals                        # com.bts.app.stepdefinitions.CartPageStepdefinition.total_should_be_equal_to_the_sum_of_subtotals()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.031">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form with Errors      # src/test/Resources/features/contact_page.feature:15
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                   # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And click on Submit button                                   # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then error messages should be displayed                      # com.bts.app.stepdefinitions.ContactPageStepdefinition.error_messages_should_be_displayed()
+  And populate the mandatory fields "Sam","sam@277.com","Test" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_the_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  Then errors should be gone                                   # com.bts.app.stepdefinitions.ContactPageStepdefinition.errors_should_be_gone()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.025">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form Successfully               # src/test/Resources/features/contact_page.feature:23
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                             # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                          # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And populate mandatory fields "Riya","riya@example.com","Test Message" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  And click on Submit button                                             # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then successful submission message should be displayed                 # com.bts.app.stepdefinitions.ContactPageStepdefinition.successful_submission_message_should_be_displayed()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.022">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form Successfully                # src/test/Resources/features/contact_page.feature:24
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                              # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                           # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And populate mandatory fields "abc","abc@example.com","Test Message123" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  And click on Submit button                                              # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then successful submission message should be displayed                  # com.bts.app.stepdefinitions.ContactPageStepdefinition.successful_submission_message_should_be_displayed()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.054">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form Successfully                # src/test/Resources/features/contact_page.feature:25
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                              # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                           # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And populate mandatory fields "test","test@example.com","Test Message1" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  And click on Submit button                                              # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then successful submission message should be displayed                  # com.bts.app.stepdefinitions.ContactPageStepdefinition.successful_submission_message_should_be_displayed()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.027">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form Successfully                  # src/test/Resources/features/contact_page.feature:26
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                                # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                             # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And populate mandatory fields "test1","test1@example.com","Test Message2" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  And click on Submit button                                                # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then successful submission message should be displayed                    # com.bts.app.stepdefinitions.ContactPageStepdefinition.successful_submission_message_should_be_displayed()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="com.bts.app.runners.TestRunner" time="0.02">
+    <failure message="Unsupported browser: ${Browser}" type="java.lang.RuntimeException">java.lang.RuntimeException: Unsupported browser: ${Browser}
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: Submitting the Contact Form Successfully                    # src/test/Resources/features/contact_page.feature:27
+Selected browser is:${Browser}
+      java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+
+  Given user is on home page                                                  # com.bts.app.stepdefinitions.ContactPageStepdefinition.user_is_on_home_page()
+  Then navigate to contact page                                               # com.bts.app.stepdefinitions.ContactPageStepdefinition.navigate_to_contact_page()
+  And populate mandatory fields "test2","test2@example.com","Test Message @3" # com.bts.app.stepdefinitions.ContactPageStepdefinition.populate_mandatory_fields(java.lang.String,java.lang.String,java.lang.String)
+  And click on Submit button                                                  # com.bts.app.stepdefinitions.ContactPageStepdefinition.click_on_Submit_button()
+  Then successful submission message should be displayed                      # com.bts.app.stepdefinitions.ContactPageStepdefinition.successful_submission_message_should_be_displayed()
+      java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+
+]]></system-out>
+  </testcase>
+</testsuite>

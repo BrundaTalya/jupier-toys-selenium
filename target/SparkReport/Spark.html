@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 28, 2023 04:32:23 PM</span></a>
+<a href="#"><span class="badge badge-primary">Oct 3, 2023 03:35:27 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -66,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,25 +79,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Shopping Cart Calculation</p>
             <p class="text-sm">
-              <span>4:32:24 PM</span> / <span>00:00:08:332</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:35:27 PM</span> / <span>00:00:00:041</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Shopping Cart Calculation</h5>
-<span class='badge badge-success'>09.28.2023 4:32:24 PM</span>
-<span class='badge badge-danger'>09.28.2023 4:32:32 PM</span>
-<span class='badge badge-default'>00:00:08:332</span>
+<h5 class="test-status text-fail">Shopping Cart Calculation</h5>
+<span class='badge badge-success'>10.03.2023 3:35:27 PM</span>
+<span class='badge badge-danger'>10.03.2023 3:35:27 PM</span>
+<span class='badge badge-default'>00:00:00:041</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,41 +109,60 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Calculate Cart Subtotal and Total price</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Calculate Cart Subtotal and Total price</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.user_is_on_the_home_page()">
+              <div class="step fail-bg" title="BEFORE">
+                <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.user_is_on_the_home_page()">
                 <span>Given user is on the home page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_shop_page()">
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_shop_page()">
                 <span>Then navigate to shop page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.user_adds_the_following_products_to_the_cart(io.cucumber.datatable.DataTable)">
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.user_adds_the_following_products_to_the_cart(io.cucumber.datatable.DataTable)">
                 <span>When user adds the following products to the cart</span>
       <div><table class='markup-table table '><tr><td>Product</td><td>Quantity</td></tr><tr><td>Stuffed Frog</td><td>2</td></tr><tr><td>Fluffy Bunny</td><td>5</td></tr><tr><td>Valentine Bear</td><td>3</td></tr></table>
       </div>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_cart_page()">
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.navigate_to_cart_page()">
                 <span>Then navigate to cart page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.subtotals_for_all_the_products_added_should_be_calculated_correctly()">
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.subtotals_for_all_the_products_added_should_be_calculated_correctly()">
                 <span>Then subtotals for all the products added should be calculated correctly</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.total_should_be_equal_to_the_sum_of_subtotals()">
+              <div class="step skip-bg" title="com.bts.app.stepdefinitions.CartPageStepdefinition.total_should_be_equal_to_the_sum_of_subtotals()">
                 <span>And total should be equal to the sum of subtotals</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
               </div>
           </div>
@@ -147,25 +171,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="11"
+        <li class="test-item"  status="fail" test-id="11"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Contact Page Validation and Submission</p>
             <p class="text-sm">
-              <span>4:32:32 PM</span> / <span>00:00:58:579</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:35:27 PM</span> / <span>00:00:00:160</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Contact Page Validation and Submission</h5>
-<span class='badge badge-success'>09.28.2023 4:32:32 PM</span>
-<span class='badge badge-danger'>09.28.2023 4:33:31 PM</span>
-<span class='badge badge-default'>00:00:58:579</span>
+<h5 class="test-status text-fail">Contact Page Validation and Submission</h5>
+<span class='badge badge-success'>10.03.2023 3:35:27 PM</span>
+<span class='badge badge-danger'>10.03.2023 3:35:28 PM</span>
+<span class='badge badge-default'>00:00:00:160</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -177,45 +201,64 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form with Errors</div>
+        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form with Errors</div>
       </div>
     </div>
-        <div class="scenario_outline collapse">
+        <div class="scenario_outline ">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form with Errors</div>
+                  <div class="node" id="13"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form with Errors</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then error messages should be displayed</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate the mandatory fields "Sam","sam@277.com","Test"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then errors should be gone</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -225,40 +268,59 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+        <div class="node" id="22"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
       </div>
     </div>
-        <div class="scenario_outline collapse">
+        <div class="scenario_outline ">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+                  <div class="node" id="23"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate mandatory fields "Riya","riya@example.com","Test Message"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then successful submission message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -266,33 +328,52 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+                  <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate mandatory fields "abc","abc@example.com","Test Message123"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then successful submission message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -300,33 +381,52 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+                  <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate mandatory fields "test","test@example.com","Test Message1"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then successful submission message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -334,33 +434,52 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+                  <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate mandatory fields "test1","test1@example.com","Test Message2"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then successful submission message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -368,33 +487,52 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="55"><span class="badge log pass-bg mr-2">Pass</span>Submitting the Contact Form Successfully</div>
+                  <div class="node" id="55"><span class="badge log fail-bg mr-2">Fail</span>Submitting the Contact Form Successfully</div>
                 </div>
               </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.launchBrowser()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: Unsupported browser: ${Browser}
+	at com.bts.app.helper.DriverHelper.initDriver(DriverHelper.java:41)
+	at com.bts.app.utils.Hooks.launchBrowser(Hooks.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
                     <span>Given user is on home page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then navigate to contact page</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And populate mandatory fields "test2","test2@example.com","Test Message @3"</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>And click on Submit button</span>
-      <div>
+      <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step skip-bg">
                     <span>Then successful submission message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.bts.app.utils.Hooks.quitBrowser()</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.bts.app.utils.Hooks.quitBrowser(Hooks.java:31)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -413,30 +551,238 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">java.lang.RuntimeException</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.RuntimeException</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Shopping Cart Calculation.Calculate Cart Subtotal and Total price.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='14'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form with Errors.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='24'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='32'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='40'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='48'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='56'>com.bts.app.utils.Hooks.launchBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.launchBrowser()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Shopping Cart Calculation.Calculate Cart Subtotal and Total price.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='21'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form with Errors.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='30'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='38'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='46'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='54'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:35:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='62'>com.bts.app.utils.Hooks.quitBrowser()</a>
+<div class="">
+<span class="badge badge-default">Contact Page Validation and Submission.Submitting the Contact Form Successfully.com.bts.app.utils.Hooks.quitBrowser()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 28, 2023 04:32:23 PM</h3>
+<h3>Oct 3, 2023 03:35:27 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 28, 2023 04:33:31 PM</h3>
+<h3>Oct 3, 2023 03:35:28 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -452,12 +798,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>2</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>2</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -475,9 +821,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='100%'><b>7</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -495,10 +841,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>37</b> steps passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='27%'><b>14</b> steps failed,
+<b>37</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -514,7 +860,7 @@
 </div></div>
 <script>
 var timeline = {
-"Shopping Cart Calculation":8.332,"Contact Page Validation and Submission":58.579
+"Shopping Cart Calculation":0.041,"Contact Page Validation and Submission":0.16
 };
 </script>
 <div class="row">
@@ -523,21 +869,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
-failParent: 0,
+passParent: 0,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 7,
-failChild: 0,
+passChild: 0,
+failChild: 7,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 37,
-failGrandChild: 0,
+passGrandChild: 0,
+failGrandChild: 14,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 37,
 infoGrandChild: 0,
 eventsCount: 5,
 };

@@ -21,7 +21,8 @@ public class Hooks {
     public void launchBrowser() {
         configReader = new ConfigReader();
         properties = configReader.readFromConfigFile();
-        String browserName = properties.getProperty("browser");
+        //String browserName = properties.getProperty("browser");
+        String browserName = System.getProperty("Browser");
         driverHelper = new DriverHelper();
         driver= driverHelper.initDriver(browserName);
     }
